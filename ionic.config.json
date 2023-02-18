@@ -1,0 +1,8 @@
+{
+  "name": "fingerprint",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}

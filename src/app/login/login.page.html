@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+
+  <div class="body">
+
+     <div>
+      <ion-input class="input"  [(ngModel)]="username" placeholder="Username"></ion-input>
+      <ion-input class="input" [(ngModel)]="password" placeholder="Password"></ion-input>
+     </div>
+      <ion-button (click)=" login()" >Login</ion-button> 
+      <!-- <ion-button (click)=" deleteVariables()" >Delete</ion-button>  -->
+      <ion-text class="message">
+     {{message}}
+    </ion-text>
+  </div>
+</ion-content>
